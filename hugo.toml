@@ -1,5 +1,5 @@
-baseURL = "https://avddhtghd.github.io/phd-blog/"
-title = "鹏轩的博士日志"
+baseURL = "https://edawnsun.github.io/phd-blog/"
+title = "彭轩的博士日志"
 theme = "PaperMod"
 languageCode = "zh-cn"
 defaultContentLanguage = "zh"
@@ -13,7 +13,7 @@ enableRobotsTXT = true
 [params]
   env = "production"
   description = "博士期间的工作日志、研究笔记与论文阅读"
-  author = "孙鹏轩"
+  author = "孙彭轩"
   defaultTheme = "auto"
   ShowReadingTime = true
   ShowShareButtons = false
@@ -30,7 +30,7 @@ enableRobotsTXT = true
 
   [[params.socialIcons]]
     name = "github"
-    url = "https://github.com/avddhtghd"
+    url = "https://github.com/EdawnSun"
 
 [menu]
   [[menu.main]]
