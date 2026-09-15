@@ -1,0 +1,60 @@
+baseURL = "https://avddhtghd.github.io/phd-blog/"
+title = "鹏轩的博士日志"
+theme = "PaperMod"
+languageCode = "zh-cn"
+defaultContentLanguage = "zh"
+hasCJKLanguage = true
+paginate = 10
+enableRobotsTXT = true
+
+[outputs]
+  home = ["HTML", "RSS", "JSON"]
+
+[params]
+  env = "production"
+  description = "博士期间的工作日志、研究笔记与论文阅读"
+  author = "孙鹏轩"
+  defaultTheme = "auto"
+  ShowReadingTime = true
+  ShowShareButtons = false
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = true
+  ShowToc = true
+  TocOpen = false
+  comments = false
+
+  [params.homeInfoParams]
+    Title = "你好,这里是我的博士工作日志"
+    Content = "记录博士期间的每日工作、研究进展、论文阅读与踩坑笔记。"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/avddhtghd"
+
+[menu]
+  [[menu.main]]
+    identifier = "logs"
+    name = "工作日志"
+    url = "/logs/"
+    weight = 1
+  [[menu.main]]
+    identifier = "notes"
+    name = "研究笔记"
+    url = "/notes/"
+    weight = 2
+  [[menu.main]]
+    identifier = "about"
+    name = "关于"
+    url = "/about/"
+    weight = 3
+  [[menu.main]]
+    identifier = "archives"
+    name = "归档"
+    url = "/archives/"
+    weight = 4
+  [[menu.main]]
+    identifier = "search"
+    name = "搜索"
+    url = "/search/"
+    weight = 5
