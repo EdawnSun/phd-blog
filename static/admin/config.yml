@@ -1,0 +1,43 @@
+backend:
+  name: github
+  repo: EdawnSun/phd-blog
+  branch: main
+  base_url: https://phd-blog-auth.pengxuan-sun.workers.dev
+  auth_endpoint: auth
+
+site_url: https://edawnsun.github.io/phd-blog/
+logo_url: https://edawnsun.github.io/phd-blog/favicon.ico
+
+media_folder: static/images
+public_folder: /phd-blog/images
+
+publish_mode: simple
+
+collections:
+  - name: logs
+    label: 工作日志
+    folder: content/logs
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    preview_path: logs/{{filename}}
+    fields:
+      - { label: 标题, name: title, widget: string }
+      - { label: 日期, name: date, widget: datetime, date_format: "YYYY-MM-DD", time_format: "HH:mm", format: "YYYY-MM-DDTHH:mm:ssZ", picker_utc: true }
+      - { label: 摘要, name: summary, widget: string, required: false }
+      - { label: 标签, name: tags, widget: list, required: false, default: ["科研日志"] }
+      - { label: 草稿, name: draft, widget: boolean, default: true, hint: "勾选=草稿（站点不显示）；取消勾选并保存=发布上线" }
+      - { label: 正文, name: body, widget: markdown }
+
+  - name: notes
+    label: 研究笔记
+    folder: content/notes
+    create: true
+    slug: "{{year}}-{{month}}-{{day}}-{{slug}}"
+    preview_path: notes/{{filename}}
+    fields:
+      - { label: 标题, name: title, widget: string }
+      - { label: 日期, name: date, widget: datetime, date_format: "YYYY-MM-DD", time_format: "HH:mm", format: "YYYY-MM-DDTHH:mm:ssZ", picker_utc: true }
+      - { label: 摘要, name: summary, widget: string, required: false }
+      - { label: 标签, name: tags, widget: list, required: false }
+      - { label: 草稿, name: draft, widget: boolean, default: true, hint: "勾选=草稿（站点不显示）；取消勾选并保存=发布上线" }
+      - { label: 正文, name: body, widget: markdown }
