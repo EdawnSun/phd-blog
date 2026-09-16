@@ -1,8 +1,14 @@
 ---
-title: "科研日志 2026-09-14：二审稿件从 Word 迁到 LaTeX，文稿侧修改全部落地"
+title: 科研日志 2026-09-14：二审稿件从 Word 迁到 LaTeX，文稿侧修改全部落地.
 date: 2026-09-14T23:30:00+08:00
-summary: "把二审修改稿从 docx 迁到 LaTeX 源文件，23 条审稿意见中文稿侧的全部落地，xelatex 编译出 42 页干净 PDF。剩下的只有我自己才能做的部分：跑实验、填 28 处占位。"
-tags: ["科研日志", "paper-revision", "latex", "federated-learning", "differential-privacy"]
+summary: 把二审修改稿从 docx 迁到 LaTeX 源文件，23 条审稿意见中文稿侧的全部落地，xelatex 编译出 42 页干净
+  PDF。剩下的只有我自己才能做的部分：跑实验、填 28 处占位。
+tags:
+  - 科研日志
+  - paper-revision
+  - latex
+  - federated-learning
+  - differential-privacy
 draft: false
 ---
 
