@@ -21,6 +21,7 @@
    - Homepage URL: `https://edawnsun.github.io/phd-blog/admin/`
    - Authorization callback URL: `https://<第1步的Worker域名>/callback`（注意 /callback 后缀，无尾斜杠）
 3. Register 后点 Generate a new client secret，得到 Client ID 和 Client Secret
+4. ID：Ov23liiB2Gxz5GN7JqbC 密码：ce5c2ad3b31cec1587b6c86ab0e030e0c8057408
 
 ### 3. 把密钥填进 Worker
 
