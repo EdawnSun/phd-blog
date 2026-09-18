@@ -3,6 +3,7 @@ title: "科研日志 2026-09-15：定理环境化、附录证明补全，占位�
 date: 2026-09-15T15:30:00+08:00
 summary: "附录 A.1 的引理证明补全了，常数与正文陈述精确一致；图和定理全部转成标准 LaTeX 环境；M1 按自洽方案预写。顺手揪出一个 pandoc 残留与 caption 宏包冲突的暗雷。剩余 25 处占位全部等实验数据。"
 tags: ["科研日志", "paper-revision", "latex", "federated-learning", "differential-privacy"]
+categories: ["科研"]
 draft: false
 ---
 

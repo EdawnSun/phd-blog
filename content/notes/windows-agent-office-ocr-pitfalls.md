@@ -3,6 +3,7 @@ title: "Windows 下让 Agent 操作 Office 与 OCR 的三个坑"
 date: 2026-09-18
 draft: false
 tags: ["研究笔记", "工具链"]
+categories: ["工作", "科研"]
 ---
 
 > **TL;DR (EN):** Three Windows pitfalls when letting an agent handle Office docs and OCR: use `DispatchEx` (not `Dispatch`) for Word COM, Tesseract ships without Chinese language data, and GitHub push needs a mirror prefix when direct access times out.

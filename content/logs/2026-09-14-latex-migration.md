@@ -9,6 +9,8 @@ tags:
   - latex
   - federated-learning
   - differential-privacy
+categories:
+  - 科研
 draft: false
 ---
 

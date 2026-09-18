@@ -3,6 +3,7 @@ title: "2026-09-16 工作日志"
 date: 2026-09-16
 draft: false
 tags: ["工作日志"]
+categories: ["工作"]
 ---
 
 > **TL;DR (EN):** Planned the 6G edge-agent security project application: distilled the funding rationale and a plain-language pitch, iterated the structure from 5 topics to 8 tasks through six rounds of grilling, wrote detailed specs for Task 7 (pilot demo) and Task 8 (standardization), and produced a Word writing-assignment table for the 8-task proposal.

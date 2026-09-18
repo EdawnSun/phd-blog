@@ -3,6 +3,7 @@ title: "2026-09-18 工作日志"
 date: 2026-09-18
 draft: false
 tags: ["工作日志"]
+categories: ["工作"]
 ---
 
 > **TL;DR (EN):** Drafted the Task 7 (prototype & pilot) and Task 8 (standardization) sections of the 6G edge-agent security proposal: goals/metrics with evaluation methods, 300-char research contents, 200-char methodology paragraphs, per-task KPI tables, two layered framework figures, ~3000-char full task write-ups, and reformatted the merged draft doc (heading fonts, indent, spacing, section breaks).

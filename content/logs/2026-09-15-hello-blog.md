@@ -3,7 +3,7 @@ title: "开博:博士工作日志正式上线"
 date: 2026-09-15T09:20:00+08:00
 slug: "hello-phd-blog"
 tags: ["博客"]
-categories: ["工作日志"]
+categories: ["科研"]
 summary: "博士工作日志博客搭建完成,此后每次工作结束都会把进展推到这里。"
 ---
 
