@@ -13,7 +13,7 @@ enableRobotsTXT = true
 [params]
   env = "production"
   description = "博士期间的工作日志、研究笔记与论文阅读"
-  author = "孙彭轩"
+  author = "EdawnSun"
   defaultTheme = "auto"
   ShowReadingTime = true
   ShowShareButtons = false
