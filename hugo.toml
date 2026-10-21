@@ -34,22 +34,27 @@ enableRobotsTXT = true
 
 [menu]
   [[menu.main]]
+    identifier = "logs"
+    name = "工作日志"
+    url = "/logs/"
+    weight = 1
+  [[menu.main]]
     identifier = "work"
     name = "工作"
     url = "/categories/工作/"
-    weight = 1
+    weight = 2
   [[menu.main]]
     identifier = "research"
     name = "科研"
     url = "/categories/科研/"
-    weight = 2
+    weight = 3
   [[menu.main]]
     identifier = "publications"
     name = "论文"
     url = "/publications/"
-    weight = 3
+    weight = 4
   [[menu.main]]
     identifier = "about"
     name = "关于"
     url = "/about/"
-    weight = 4
+    weight = 5
